@@ -13,11 +13,13 @@
     "bootstrap": "^5.3.3",
     "ethers": "^5.6.8",
     "jsbi": "^3.2.5",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-bootstrap-icons": "^1.11.3",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.8",
+    "stream-http": "^3.2.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -43,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
